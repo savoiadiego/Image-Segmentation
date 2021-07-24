@@ -14,4 +14,4 @@ After the data preparation part, there are three different models to train and u
 * U-NET model
 * Transfer Learning using VGG-16
 
-Every model can be trained on the given dataset, using 20% of the samples for validation. Then, the prediction can be computed on the samples in the test folder. After that, the csv file containing the predictions is exported inside the Drive directory.
+Every model can be trained on the given dataset, using 20% of the samples for validation. Then, the prediction can be computed on the samples in the test folder. After that, the json file containing the RLE-encoded segmentation for each test image is exported inside the Drive directory.
